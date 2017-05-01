@@ -1,19 +1,29 @@
 {
-  "name": "node-js-playlist",
+  "name": "todo-app",
   "version": "1.0.0",
-  "description": "a little todo app",
+  "description": "a simple todo app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/node-js-playlist.git"
+    "url": "git+https://github.com/apar-adhikari/Todo-app.git"
   },
-  "author": "me",
+  "keywords": [
+    "app",
+    "node"
+  ],
+  "author": "Apar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/node-js-playlist/issues"
+    "url": "https://github.com/apar-adhikari/Todo-app/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/node-js-playlist#readme"
+  "homepage": "https://github.com/apar-adhikari/Todo-app#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.7"
+  }
 }
